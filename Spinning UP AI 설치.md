@@ -29,7 +29,7 @@
 
 아나콘다를 이용하여 설치하는 방법은 https://spinningup.openai.com/en/latest/user/installation.html#installing-spinning-up 을 참고하자
 
-### Open[MPI]<sup id="a1">[1](#b1)</sup>
+### OpenMPI<sup id="a1">[1](#b1)</sup>
 조쉬 아카임 아저씨는 MS를 혐오하신 나머지, 윈도우즈의 설치 경로를 올려놓지 않으셨다. ~~ 심장이 철렁~ ~~
 
 얘네들은 구버전들은 지원을 안 하기 때문에 최신 버전을 일단 받아보도록 하자.
