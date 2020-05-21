@@ -27,6 +27,12 @@
   python -m pip install --upgrade pip
 ```
 
+### 텐서플로우 설치
+pip을 이용해서 받으면 된다.
+```
+ pip install tensorflow
+```
+
 아나콘다를 이용하여 설치하는 방법은 https://spinningup.openai.com/en/latest/user/installation.html#installing-spinning-up 을 참고하자
 
 ### OpenMPI<sup id="a1">[1](#b1)</sup>
