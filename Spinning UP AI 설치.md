@@ -36,6 +36,8 @@
 - torch
 - mpi4py
 - psutil
+- tqdm
+
 pip을 이용해서 받으면 된다.
 
 ```
@@ -44,6 +46,7 @@ pip을 이용해서 받으면 된다.
  pip install joblib
  pip install mpi4py
  pip install psutil
+ pip install tqdm
 ```
 
 
