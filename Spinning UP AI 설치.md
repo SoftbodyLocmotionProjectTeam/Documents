@@ -1,4 +1,4 @@
-# 스피닝 업 AI
+# 스피닝 업 AI 설치
 설치 과정은 간단한 데, 파이썬, OpenMPI와 같은 환경을 구축해야한다.
 
 ## 개발 환경 구축
@@ -71,9 +71,10 @@ python -m spinup.run plot data/installtest/installtest_s0
 ```
 (실행 결과 첨부 예정)
 ### 참고 사항
-스피닝 업을 설치하면 기본적으로 Gym이라는 프로그램이 딸려서 설치되는데, Gym 설치에 문제가 생겼다면 Gym github 페이지에 가서 따지란다.
+- 스피닝 업을 설치하면 기본적으로 Gym이라는 프로그램이 딸려서 설치되는데, Gym 설치에 문제가 생겼다면 Gym github 페이지에 가서 따지란다.
 https://github.com/openai/gym
 
+- 스피닝 업 페이지에 가보면, MuJoCo 어쩌고 되어 있는데, 무시했다.
 
 ### 각주
 <b id="b1">[1](#a1)</b> Message Passing Interface의 줄임말로, 쓰레드 끼리 메세지 주고 받는 인터페이스를 가르킨다.
