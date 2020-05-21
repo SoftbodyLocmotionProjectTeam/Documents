@@ -27,22 +27,40 @@
   python -m pip install --upgrade pip
 ```
 
-### 텐서플로우 설치
+### 모듈 설치
+다음과 같은 모듈이 필요하다.
+
+- tensorflow
+- gym
+- joblib
+- torch
+- mpi4py
+- psutil
 pip을 이용해서 받으면 된다.
+
 ```
  pip install tensorflow
+ pip install gym
+ pip install joblib
+ pip install mpi4py
+ pip install psutil
 ```
 
+
+torch의 경우 코드가 복잡한데, 이를 통해 설치한다.
+
+```
+ pip install torch==1.5.0+cpu torchvision==0.6.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+
+```
 아나콘다를 이용하여 설치하는 방법은 https://spinningup.openai.com/en/latest/user/installation.html#installing-spinning-up 을 참고하자
 
 ### OpenMPI<sup id="a1">[1](#b1)</sup>
-윈도우에서 OpenMPI가 돌아가지 않는다. ~~ 심장이 철렁~ ~~
+조쉬 아재가 윈도우에서 OpenMPI 설치하는 법을 안 올리셨다.. ~~ 심장이 철렁~ ~~
 
-
-https://www.open-mpi.org/software/ompi/v1.6/ms-windows.php
-
-Windows XP, Windows Vista, Windows Server 2003/2008, Windows 7만 지원하는 플랫폼이라고 적혀 있어, 굉장히 똥줄타게 만드는 프로그램이 아닐까 싶다.
-
+오랜 크롤링 끝에 찾게 되었다. 해당 링크를 타고 가서 받으면 된다.
+https://www.microsoft.com/en-us/download/details.aspx?id=100593
+마이크로소프트에서 직접 제공한다.
 
 ### 스피닝 업 설치
 github에 오픈 소스로 올려서 해당 레퍼지토리부터 받아와야 한다. https://github.com/openai/spinningup.git
