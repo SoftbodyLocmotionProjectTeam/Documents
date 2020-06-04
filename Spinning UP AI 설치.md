@@ -1,6 +1,13 @@
 # 스피닝 업 AI 설치
 설치 과정은 간단한 데, 파이썬, OpenMPI와 같은 환경을 구축해야한다.
 
+### CUDA 설치
+Tensor Flow에서 GPU를 제어하기 위한 라이브러리인데, NVIDIA GeForce 기준, 해당 링크에서 받으면 된다.
+32-64비트
+
+일단 CUDA를 먼저 설치해주자. 경험상 설치하는데 가장 오래걸린다. 설치하고 나머지 병행으로 설치해주자.
+
+
 ## 개발 환경 구축
 ### 파이썬
 요구 버전 : 3.6 이상
@@ -69,10 +76,6 @@ torch의 경우 코드가 복잡한데, 이를 통해 설치한다.
 오랜 크롤링 끝에 찾게 되었다. 해당 링크를 타고 가서 받으면 된다.
 https://www.microsoft.com/en-us/download/details.aspx?id=100593
 마이크로소프트에서 직접 제공한다.
-
-### CUDA 설치
-Tensor Flow에서 GPU를 제어하기 위한 라이브러리인데, NVIDIA GeForce 기준, 해당 링크에서 받으면 된다.
-32-64비트
 
 https://developer.nvidia.com/cuda-10.1-download-archive-update2?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal
 
