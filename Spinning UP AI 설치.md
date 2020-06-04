@@ -37,6 +37,7 @@
 - mpi4py
 - psutil
 - tqdm
+- seaborn
 
 pip을 이용해서 받으면 된다.
 
@@ -47,6 +48,7 @@ pip을 이용해서 받으면 된다.
  pip install mpi4py
  pip install psutil
  pip install tqdm
+ pip install seaborn
 ```
 
 
