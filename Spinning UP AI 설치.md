@@ -67,6 +67,13 @@ torch의 경우 코드가 복잡한데, 이를 통해 설치한다.
 https://www.microsoft.com/en-us/download/details.aspx?id=100593
 마이크로소프트에서 직접 제공한다.
 
+### CUDA 설치
+Tensor Flow에서 GPU를 제어하기 위한 라이브러리인데, NVIDIA GeForce 기준, 해당 링크에서 받으면 된다.
+32-64비트
+
+https://developer.nvidia.com/cuda-10.1-download-archive-update2?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal
+
+
 ### 스피닝 업 설치
 github에 오픈 소스로 올려서 해당 레퍼지토리부터 받아와야 한다. https://github.com/openai/spinningup.git
 
