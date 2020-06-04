@@ -101,11 +101,8 @@ mpi_tf.py
 swig.exe 파일이 있는 경로를 환경변수에 설정해주면 된다. 
 
 환경변수 -> 시스템 변수 -> Path클릭 -> 편집 -> 새로만들기 -> 해당경로 입력 확인.
-
-### Box2d설치 ###
-pip install box2d box2d-kengz
-
-참고로 Visual C++ Compiler가 깔려있지 않으면 안 먹는다고 하니까 주의. ~~제발~~
+참고로 Visual C++ Compiler가 깔려있지 않으면 안 먹는다고 하니까 주의. 
+~~제발~~
 
 ### 모듈 설치
 git 폴더\spinningup 폴더에 들어가서 다음을 실행한다.
