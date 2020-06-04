@@ -28,7 +28,8 @@
 ```
 
 ### 모듈 설치
-다음과 같은 모듈이 필요하다.
+다음과 같은 모듈이 필요하다. 스피닝업 레퍼지토리를 클론하여 pip install -e . 을 하면 설치가 되는 것 같았는데, 안 되어서 적어놓겠다.
+자세한 사항은 아래 **스피닝 업 설치 항목**을 참고하자
 
 - tensorflow
 - gym
@@ -61,7 +62,7 @@ torch의 경우 코드가 복잡한데, 이를 통해 설치한다.
 아나콘다를 이용하여 설치하는 방법은 https://spinningup.openai.com/en/latest/user/installation.html#installing-spinning-up 을 참고하자
 
 ### OpenMPI<sup id="a1">[1](#b1)</sup>
-조쉬 아재가 윈도우에서 OpenMPI 설치하는 법을 안 올리셨다.. ~~ 심장이 철렁~ ~~
+조쉬 아재가 윈도우에서 OpenMPI 설치하는 법을 안 올리셨다.. ~~심장이 철렁~~~
 
 오랜 크롤링 끝에 찾게 되었다. 해당 링크를 타고 가서 받으면 된다.
 https://www.microsoft.com/en-us/download/details.aspx?id=100593
@@ -88,7 +89,7 @@ DOS나 커맨드 창에 아래와 같은 코드를 입력하자.
 ```
 python -m spinup.run ppo --hid "[32,32]" --env LunarLander-v2 --exp_name installtest --gamma 0.999
 ```
-이 코드를 실행하면 10분 정도 걸리는데, ~~ 왜 그걸 이제 말해 ~~ 진정하고 저건 백그라운드에 실행하게 냅두고, 계속 이 문서를 읽어보도록 하자.
+이 코드를 실행하면 10분 정도 걸리는데, ~~왜 그걸 이제 말해~~ 진정하고 저건 백그라운드에 실행하게 냅두고, 계속 이 문서를 읽어보도록 하자.
 
 저 코드를 실행하면, 학습 진행도를 보게 되는데, 어떤 학습 활동을 하고 있음을 알 수 있다.
 
