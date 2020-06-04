@@ -133,7 +133,8 @@ python -m spinup.run test_policy data/installtest/installtest_s0
 ```
 
 결과 화면
-![결과 화면1](/img_202006051223.JPG)
+
+![결과화면1](/img_202006051223.JPG)
 
 
 그리고 다음을 실행시켜보며 마무리하자.
