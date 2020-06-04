@@ -110,7 +110,8 @@ git 폴더\spinningup 폴더에 들어가서 다음을 실행한다.
 pip install -e .
 ```
 
-만약에 안된다면...!
+
+만약에 안된다면...! Box2d를 설치해주자.
 ### Box2d설치 ###
 pip install box2d box2d-kengz
 
