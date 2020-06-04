@@ -8,6 +8,7 @@ Tensor Flow에서 GPU를 제어하기 위한 라이브러리인데, NVIDIA GeFor
 일단 CUDA를 먼저 설치해주자. 경험상 설치하는데 가장 오래걸린다. 설치하고 나머지 병행으로 설치해주자.
 
 
+
 ## 개발 환경 구축
 ### 파이썬
 요구 버전 : 3.6 이상
@@ -112,6 +113,10 @@ tensorflow 1.0 에서 tensorflow 2.0으로 업데이트 되면서, 스피닝업 
 https://github.com/SoftbodyLocmotionProjectTeam/Documents/blob/feature/docs-1/mpi_tf.py
 mpi_tf.py
 
+### cudart64_101.dll
+환경 변수로 해당 디렉토리를 추가하거나, cudart64_101.dll 파일을 (git 폴더)\spinningup 에 넣어준다.
+cudart64_101.dll 파일 위치는 나 같은 경우, C:\ProgramData\NVIDIA Corporation\Downloader\latest\GFExperience.NvStreamSrv\amd64\server에 있었다. ~~(근데 나 인텔 CPU 쓰는데 왜 AMD가...)~~
+
 ### 설치 확인
 DOS나 커맨드 창에 아래와 같은 코드를 입력하자.
 ```
@@ -132,7 +137,8 @@ python -m spinup.run test_policy data/installtest/installtest_s0
 ```
 python -m spinup.run plot data/installtest/installtest_s0
 ```
-(실행 결과 첨부 예정)
+
+
 ### 참고 사항
 - 스피닝 업을 설치하면 기본적으로 Gym이라는 프로그램이 딸려서 설치되는데, Gym 설치에 문제가 생겼다면 Gym github 페이지에 가서 따지란다.
 https://github.com/openai/gym
