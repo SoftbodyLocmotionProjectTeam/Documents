@@ -126,15 +126,18 @@ python -m spinup.run ppo --hid "[32,32]" --env LunarLander-v2 --exp_name install
 
 저 코드를 실행하면, 학습 진행도를 보게 되는데, 어떤 학습 활동을 하고 있음을 알 수 있다.
 
-트레이닝이 끝나면, 아래 코드를 실행시켜 학습 과정을 보자.
+결과 화면
+
+![결과화면1](/img_202006051223.JPG)
+
+
+트레이닝이 끝나면, 아래 코드를 실행시켜 학습 결과의 비디오가 재생된다. 즐겁게 감상하자.
+
+힘든 설치 과정에 대한 보상이다.
 
 ```
 python -m spinup.run test_policy data/installtest/installtest_s0
 ```
-
-결과 화면
-
-![결과화면1](/img_202006051223.JPG)
 
 
 그리고 다음을 실행시켜보며 마무리하자.
