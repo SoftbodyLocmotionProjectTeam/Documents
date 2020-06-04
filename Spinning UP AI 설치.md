@@ -58,7 +58,7 @@ pip을 이용해서 받으면 된다.
 torch의 경우 코드가 복잡한데, 이를 통해 설치한다.
 
 ```
- pip install torch==1.5.0+cpu torchvision==0.6.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+ pip install torch==1.3.1+cpu torchvision==0.6.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
 
 ```
 아나콘다를 이용하여 설치하는 방법은 https://spinningup.openai.com/en/latest/user/installation.html#installing-spinning-up 을 참고하자
