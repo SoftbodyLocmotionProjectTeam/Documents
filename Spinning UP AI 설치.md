@@ -91,11 +91,17 @@ tensorflow 1.0 에서 tensorflow 2.0으로 업데이트 되면서, 스피닝업 
 mpi_tf.py
 
 
+
+
 ### swig.exe 설치
 1. 해당 링크로 설치한다. https://netix.dl.sourceforge.net/project/swig/swigwin/swigwin-3.0.12/swigwin-3.0.12.zip
+### swig.exe설치 (수정)
+swig.exe 파일이 있는 경로를 환경변수에 설정해주면 된다. 밑의 과정은 하지 않아도 됨.
+환경변수 -> 시스템 변수 -> Path클릭 -> 편집 -> 새로만들기 -> 해당경로 입력 확인.
+-------------------------------------------------------------------------------
 2. swig.exe 파일을 (파이썬 설치경로)\ 에 넣어준다.
 3. swigwin-3.0.12\lib\ 폴더에 들어가서 거기 있는 모든 .swg 파일을 (파이썬 설치 경로)\lib 에 넣어준다.
-4. swigwin-3.0.12\lib\python\ 폴더에 들어가서 거기 있는 모든 파일을 (파이썬 설치 경로)\lib 에 넣어준다. 
+4. swigwin-3.0.12\lib\python\ 폴더에 들어가서 거기 있는 모든 파일을 (파이썬 설치 경로)\lib 에 넣어준다.
 
 참고로 Visual C++ Compiler가 깔려있지 않으면 안 먹는다고 하니까 주의. ~~제발~~
 
