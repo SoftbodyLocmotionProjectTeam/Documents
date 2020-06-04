@@ -39,6 +39,7 @@
 - psutil
 - tqdm
 - seaborn
+- spinup
 
 pip을 이용해서 받으면 된다.
 
@@ -50,6 +51,7 @@ pip을 이용해서 받으면 된다.
  pip install psutil
  pip install tqdm
  pip install seaborn
+ pip install spinup
 ```
 
 
