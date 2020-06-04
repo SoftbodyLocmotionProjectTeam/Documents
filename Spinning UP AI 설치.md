@@ -79,6 +79,9 @@ torch의 경우 코드가 복잡한데, 이를 통해 설치한다.
 https://www.microsoft.com/en-us/download/details.aspx?id=100593
 마이크로소프트에서 직접 제공한다.
 
+OpenMPI설치시 exe파일이 설치가 안되는 경우가 있다.
+이경우에는 깃에 올려놓은 파일을 다운해 이용하자.
+
 https://developer.nvidia.com/cuda-10.1-download-archive-update2?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal
 
 
