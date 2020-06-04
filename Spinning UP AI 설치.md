@@ -88,14 +88,6 @@ git clone https://github.com/openai/spinningup.git
 cd spinningup
 ```
 
-### 스피닝 업 코드 변경
-tensorflow 1.0 에서 tensorflow 2.0으로 업데이트 되면서, 스피닝업 MPI에서 일부 코드가 안 먹는다.
-
-mpi_tf.py
-
-
-
-
 ### swig.exe 설치
 1. 해당 링크로 설치한다. https://netix.dl.sourceforge.net/project/swig/swigwin/swigwin-3.0.12/swigwin-3.0.12.zip
 swig.exe 파일이 있는 경로를 환경변수에 설정해주면 된다. 
@@ -114,6 +106,11 @@ pip install -e .
 `만약에 안된다면...!`
 pip install box2d box2d-kengz
 
+
+### 스피닝 업 코드 변경
+tensorflow 1.0 에서 tensorflow 2.0으로 업데이트 되면서, 스피닝업 MPI에서 일부 코드가 안 먹는다.
+https://github.com/SoftbodyLocmotionProjectTeam/Documents/blob/feature/docs-1/mpi_tf.py
+mpi_tf.py
 
 ### 설치 확인
 DOS나 커맨드 창에 아래와 같은 코드를 입력하자.
