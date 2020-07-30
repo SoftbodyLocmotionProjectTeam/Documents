@@ -1,1 +1,20 @@
 https://github.com/openai/gym/blob/master/docs/creating-environments.md 위 사이트를 들어가면 자세하게 알려준다!
+
+한글 번역을 하자면
+
+일단 원하는 이름의 커스텀환경의 레포지토리를 하나 생성한다.
+
+그리고 위 사이트의 폴더구조처럼 해당 structure를 구성한다.
+
+그리고 각 파일마다 적절한 네이밍을 하여 작성을 해준다.
+
+본인은
+gym-foo -> custom-sneak
+gym_foo -> custom_sneak
+foo_env -> sneak_env 
+...
+이런식으로 네이밍을 바꾸어서 생성함.
+그리고 해당 폴더로 가서 cmd창에 pip install -e gym-foo => 본인의 경우 pip install -e custom-sneak
+이렇게 생성을 끝내게 되면
+
+gym.make에서 사용 할 수 있는 커스텀 짐환경이 생성된다!
