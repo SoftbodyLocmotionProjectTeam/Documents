@@ -18,3 +18,5 @@ foo_env -> sneak_env
 이렇게 생성을 끝내게 되면
 
 gym.make에서 사용 할 수 있는 커스텀 짐환경이 생성된다!
+
+C:\Users\최기곤\AppData\Local\Programs\Python\Python37\Lib\site-packages\gym\envs\custom
