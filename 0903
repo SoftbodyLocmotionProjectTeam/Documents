@@ -1,0 +1,21 @@
+Issue
+
+1. 렌더링 문제
+  현재는 gym환경의 step함수에서 FEM의 render.py를 이용.
+
+  문제점:
+    spinning up을 통해 학습된 모델을 render할 수있는가 에대한 고찰이 필요
+    
+2. spinning up PPO에대한 이해
+  현재는 가장 기본적인 spinning up 을 이용한 기본 알고리즘 (기본적인 arguments 이용중)
+  
+  문제점:
+    근육량이 많아짐에 따라 더 큰 모델(학습을 위한)이 필요해짐 이를 위해 spinning up PPO알고리즘에 대한 이해 필요.
+
+해야할 일
+1. Muscle 모델링
+  각자 괜찮은 모델을 찾아볼것.
+  
+2. 선택된 Muscle 모델을 통해 적절한 인수값 찾기.
+
+3. 각자 simulation map(.obj파일)을 만들어 볼것.
