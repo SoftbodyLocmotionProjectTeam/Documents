@@ -19,4 +19,15 @@ foo_env -> sneak_env
 
 gym.make에서 사용 할 수 있는 커스텀 짐환경이 생성된다!
 
+문제점 발생!
+
+위의 방식으로 한다면 커스텀 짐 환경은 실행이 된다.
+
+하지만 Spinning up에서 사용하는 gym 환경에는 등록이 안되어 우리가 사용하고자하는 custom환경을 사용하지 못하게된다.
+
+그를 방지하기위해 한가지 방식을 제안한다.
+
 C:\Users\최기곤\AppData\Local\Programs\Python\Python37\Lib\site-packages\gym\envs\custom
+본인은 아래와 같은 경로를 타고들어가 저기에서 custom환경을 만들었다.
+
+자세한건 물어봐주세요. (이건 개인적으로 그냥 잊지않기위해 적은거라.. ㅎ)
